@@ -6,7 +6,7 @@ const app = express();
 const PORT = 4000;
 
 // mongoose connection
-mongoose.Promise = global.Promoise;
+mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/local', {
     useNewUrlParser: true,
     useUnifiedTopology: true
